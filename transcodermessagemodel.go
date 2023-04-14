@@ -3,7 +3,8 @@ package messagemodels
 import "encoding/json"
 
 type TranscoderMessageModel struct {
-	ID                  int
+	JobID               string
+	RenditionID         string
 	InputMediaFileName  string
 	OutputMediaFileName string
 	TranscodeOption     string
